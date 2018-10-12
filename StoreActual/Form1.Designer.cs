@@ -49,6 +49,7 @@
             this.printButton = new System.Windows.Forms.Button();
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // grandtotalLabel
@@ -111,7 +112,7 @@
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(21, 106);
+            this.calculateButton.Location = new System.Drawing.Point(21, 116);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(173, 23);
             this.calculateButton.TabIndex = 19;
@@ -121,21 +122,21 @@
             // 
             // helmetInput
             // 
-            this.helmetInput.Location = new System.Drawing.Point(168, 80);
+            this.helmetInput.Location = new System.Drawing.Point(168, 93);
             this.helmetInput.Name = "helmetInput";
             this.helmetInput.Size = new System.Drawing.Size(26, 20);
             this.helmetInput.TabIndex = 18;
             // 
             // skatesInput
             // 
-            this.skatesInput.Location = new System.Drawing.Point(168, 54);
+            this.skatesInput.Location = new System.Drawing.Point(168, 73);
             this.skatesInput.Name = "skatesInput";
             this.skatesInput.Size = new System.Drawing.Size(26, 20);
             this.skatesInput.TabIndex = 17;
             // 
             // stickInput
             // 
-            this.stickInput.Location = new System.Drawing.Point(168, 28);
+            this.stickInput.Location = new System.Drawing.Point(168, 54);
             this.stickInput.Name = "stickInput";
             this.stickInput.Size = new System.Drawing.Size(26, 20);
             this.stickInput.TabIndex = 16;
@@ -144,7 +145,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(21, 82);
+            this.label6.Location = new System.Drawing.Point(23, 93);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(141, 20);
             this.label6.TabIndex = 15;
@@ -154,7 +155,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(22, 55);
+            this.label5.Location = new System.Drawing.Point(22, 73);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(132, 20);
             this.label5.TabIndex = 14;
@@ -164,7 +165,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(22, 28);
+            this.label4.Location = new System.Drawing.Point(23, 54);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(125, 20);
             this.label4.TabIndex = 13;
@@ -238,11 +239,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(27, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(453, 37);
+            this.button2.TabIndex = 33;
+            this.button2.Text = "Jacob\'s Hockey Shop";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(492, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.printButton);
             this.Controls.Add(this.changeLabel);
@@ -293,6 +306,7 @@
         private System.Windows.Forms.Button printButton;
         private System.DirectoryServices.DirectoryEntry directoryEntry1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

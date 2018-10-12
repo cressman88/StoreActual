@@ -65,12 +65,12 @@ namespace StoreActual
             player.Play();
             Graphics g = this.CreateGraphics();   
             Pen drawPen = new Pen(Color.Black, 2);
-            g.DrawRectangle(drawPen, 250, 30, 200, 300);
+            g.DrawRectangle(drawPen, 250, 50, 200, 300);
 
             Font drawFont = new Font("Consolas", 8, FontStyle.Bold);
             SolidBrush drawBrush = new SolidBrush(Color.Black);
 
-            g.DrawString("Jacob's Hockey Shop", drawFont, drawBrush, 288, 40);
+            g.DrawString("Jacob's Hockey Shop", drawFont, drawBrush, 288, 60);
             g.DrawString("order number: 1752" +
                 "\nOct 11, 2018" +
                 "\n" +
@@ -85,7 +85,7 @@ namespace StoreActual
                 "\nTendered              " + numTendered.ToString("C") +
                 "\nChange                " + tendered.ToString("C") + 
                 "\n" +
-                "\nHave a great day, play on!", drawFont, drawBrush, 255, 70);
+                "\nHave a great day, play on!", drawFont, drawBrush, 255, 90);
 
         }
 

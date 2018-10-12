@@ -63,7 +63,7 @@ namespace StoreActual
         {
             SoundPlayer player = new SoundPlayer(Properties.Resources.receipt);
             player.Play();
-            Graphics g = this.CreateGraphics();
+            Graphics g = this.CreateGraphics();   
             Pen drawPen = new Pen(Color.Black, 2);
             g.DrawRectangle(drawPen, 250, 30, 200, 300);
 

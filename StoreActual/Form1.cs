@@ -54,7 +54,7 @@ namespace StoreActual
 
         private void changeButton_Click(object sender, EventArgs e)
         {
-            numTendered = Convert.ToInt16(tenInput.Text);
+            numTendered = Convert.ToDouble(tenInput.Text);
             tendered = numTendered - total;
             changeLabel.Text = tendered.ToString("C");
         }

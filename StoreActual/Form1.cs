@@ -103,6 +103,7 @@ namespace StoreActual
             subtotLabel.Text = "";
             taxtwoLabel.Text = "";
             grandtotalLabel.Text = "";
+            changeLabel.Text = "";
 
             this.Refresh();
         }

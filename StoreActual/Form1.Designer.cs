@@ -57,9 +57,8 @@
             this.grandtotalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grandtotalLabel.Location = new System.Drawing.Point(153, 208);
             this.grandtotalLabel.Name = "grandtotalLabel";
-            this.grandtotalLabel.Size = new System.Drawing.Size(18, 20);
+            this.grandtotalLabel.Size = new System.Drawing.Size(0, 20);
             this.grandtotalLabel.TabIndex = 25;
-            this.grandtotalLabel.Text = "3";
             // 
             // taxtwoLabel
             // 
@@ -67,9 +66,8 @@
             this.taxtwoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.taxtwoLabel.Location = new System.Drawing.Point(153, 175);
             this.taxtwoLabel.Name = "taxtwoLabel";
-            this.taxtwoLabel.Size = new System.Drawing.Size(18, 20);
+            this.taxtwoLabel.Size = new System.Drawing.Size(0, 20);
             this.taxtwoLabel.TabIndex = 24;
-            this.taxtwoLabel.Text = "2";
             this.taxtwoLabel.Click += new System.EventHandler(this.taxtwoLabel_Click);
             // 
             // subtotLabel
@@ -78,9 +76,8 @@
             this.subtotLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subtotLabel.Location = new System.Drawing.Point(153, 142);
             this.subtotLabel.Name = "subtotLabel";
-            this.subtotLabel.Size = new System.Drawing.Size(18, 20);
+            this.subtotLabel.Size = new System.Drawing.Size(0, 20);
             this.subtotLabel.TabIndex = 23;
-            this.subtotLabel.Text = "1";
             // 
             // label9
             // 
@@ -216,9 +213,8 @@
             this.changeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeLabel.Location = new System.Drawing.Point(153, 342);
             this.changeLabel.Name = "changeLabel";
-            this.changeLabel.Size = new System.Drawing.Size(18, 20);
+            this.changeLabel.Size = new System.Drawing.Size(0, 20);
             this.changeLabel.TabIndex = 30;
-            this.changeLabel.Text = "4";
             // 
             // printButton
             // 
